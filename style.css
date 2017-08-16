@@ -10,7 +10,28 @@ header .container, main .container, footer .container {
 }
 header {
   background: white;
+  overflow: auto;
+  display: block
+}
+header h1 {
+  float: left;
+  width: 570px;
+}
+header nav {
+  float: right;
+  width: 285px;
 }
 main {
   background: white;
+}
+img {
+  margin-left: 758px;
+}
+.contact {
+  float: left;
+  width: -1px;
+}
+.sistemap {
+  float: right;
+  width: 204px;
 }
