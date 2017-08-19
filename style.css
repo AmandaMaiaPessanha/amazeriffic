@@ -8,6 +8,12 @@ header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
 }
+h1, h2, h3, h4, h5 {
+  font-family: 'Ubuntu', sans-serif;
+}
+p, li, a {
+  font-family: 'Droid Sans', sans-serif;
+}
 header {
   background: white;
   overflow: auto;
@@ -26,6 +32,7 @@ main {
 }
 img {
   margin-left: 758px;
+  margin-top: -80px;
 }
 .contact {
   float: left;
