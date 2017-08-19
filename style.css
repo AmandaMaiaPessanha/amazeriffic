@@ -10,9 +10,11 @@ header .container, main .container, footer .container {
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Ubuntu', sans-serif;
+  font-size: 100%;
 }
 p, li, a {
   font-family: 'Droid Sans', sans-serif;
+  font-size: 100%;
 }
 header {
   background: white;
@@ -41,4 +43,15 @@ img {
 .sistemap {
   float: right;
   width: 204px;
+}
+li, p, h1 {
+  line-height: 20px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
 }
