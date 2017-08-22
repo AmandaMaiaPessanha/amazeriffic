@@ -56,6 +56,18 @@ img {
   margin-left: 1082px;
   margin-top: -80px;
 }
+.tabs a span {
+  display: inline-block;
+  border-radius: 5px 5px 0 0;
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  background: #ddd;
+  padding: 5px;
+}
+.tabs a span.active {
+  background: #eee;
+}
 .contact {
   float: left;
   width: -1px;
