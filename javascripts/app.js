@@ -12,16 +12,14 @@ var main = function () {
       makeTabActive(1);
       return false;
     });
-
     $('.tabs a:nth-child(2)').on('click', function () {
-      makeTabActive(2));
+      makeTabActive(2);
       return false;
-    )};
-
+    });
     $('.tabs a:nth-child(3)').on('click', function () {
-      makeTabActive(1);
+      makeTabActive(3);
       return false;
-    )};
+    });
 };
 
 $(document).ready(main);
