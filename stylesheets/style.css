@@ -22,11 +22,11 @@ main {
 border-radius: 0 5px 5px 5px;
 padding: 40px;
 }
-/*h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 100%;
-}*/
-h1 {
+}
+.title {
   font-family: 'Ubuntu', sans-serif;
   font-style: italic;
   font-size: 3em;
