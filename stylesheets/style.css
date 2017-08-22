@@ -4,11 +4,11 @@ body {
 header, main, footer {
   min-width: 855px;
 }
-header .container, main .container, footer .container {
+header .container, footer .container {
   max-width: 855px;
   margin: auto;
 }
-header, main, footer {
+header, footer {
     min-width: 855px;
 }
 header {
@@ -19,8 +19,9 @@ header {
 }
 main {
   background: #fff;
-border-radius: 0 5px 5px 5px;
-padding: 40px;
+  height: 628px;
+  border-radius: 0 5px 5px 5px;
+  padding: 40px;
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Ubuntu', sans-serif;
@@ -56,6 +57,9 @@ img {
   margin-left: 1082px;
   margin-top: -80px;
 }
+.tabs {
+  border: 6px solid silver;
+}
 .tabs a span {
   display: inline-block;
   border-radius: 5px 5px 0 0;
@@ -67,6 +71,36 @@ img {
 }
 .tabs a span.active {
   background: #eee;
+}
+.container {
+  background: #C0C0C0;
+  max-width: 704px;
+  max-height: 450px;
+  margin-left: 514px;
+  margin-top: 160px;
+}
+.content{
+  font-family: 'Open Sans', sans-serif;
+  height: 200px;
+  width: 700px;
+  margin-top: 2px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.content input {
+  margin-left: 10px;
+}
+.content li:nth-child(even) {
+    background: lavender;
+    border-radius: 6px;
+    margin: 5px 5px;
+    text-indent: 10px;
+}
+.content li:nth-child(odd) {
+    background: gainsboro;
+    border-radius: 6px;
+    margin: 5px 5px;
+    text-indent: 10px;
 }
 .contact {
   float: left;
