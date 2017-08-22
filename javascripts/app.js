@@ -1,25 +1,7 @@
 var main = function () {
-  "use strict";
-
-  $('.tabs span').toArray().forEach(function (element) {
-    //cria um handler click para este elemento
-    $(element).on('click', function () {
-      $('.tabs span').removeClass('active');
-      $(element).addClass('active');
-      $('main .content').empty();
-      return false;
-    });
-  });
-};
-
-
-$(document).ready(main);
-
-
-/*var main = function () {
     var toDos = ["Get groceries",
                  "Make up some new ToDos",
-                 "Prep for Monday"s class",
+                 "Prep for Monday",
                  "Answer emails",
                  "Take Gracie to the park",
                  "Finish writing this book"];
@@ -66,7 +48,7 @@ $(document).ready(main);
                 $content = $("<div>").append($input).append($button);
                /* Alternatively append() allows multiple arguments so the above
                 can be done with $content = $("<div>").append($input, $button); */
-            /*}
+            }
 
             $("main .content").append($content);
 
@@ -77,4 +59,4 @@ $(document).ready(main);
     $(".tabs a:first-child span").trigger("click");
 };
 
-$(document).ready(main);*/
+$(document).ready(main);
