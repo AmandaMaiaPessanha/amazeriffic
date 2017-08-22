@@ -58,7 +58,7 @@ img {
   margin-top: -80px;
 }
 .tabs {
-  border: 6px solid silver;
+  border: 6px solid LightGrey;
 }
 .tabs a span {
   display: inline-block;
@@ -73,7 +73,7 @@ img {
   background: #eee;
 }
 .container {
-  background: #C0C0C0;
+  background: #D3D3D3;
   max-width: 704px;
   max-height: 450px;
   margin-left: 514px;
@@ -93,12 +93,14 @@ img {
 .content li:nth-child(even) {
     background: lavender;
     border-radius: 6px;
+    line-height: 1.6;
     margin: 5px 5px;
     text-indent: 10px;
 }
 .content li:nth-child(odd) {
-    background: gainsboro;
+    background: silver;
     border-radius: 6px;
+    line-height: 1.6;
     margin: 5px 5px;
     text-indent: 10px;
 }
