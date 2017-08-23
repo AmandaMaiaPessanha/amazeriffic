@@ -82,6 +82,11 @@ h3:first-child {
     margin-top: 0;
 }
 
+.content {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 main .content li {
     border-radius: 5px;
     padding: 3px;
@@ -111,8 +116,6 @@ main .content p:first-child {
 main .content input {
     font-size: 1.5em;
 }
-
-
 
 footer {
     border-top: 1px solid #ddd;
