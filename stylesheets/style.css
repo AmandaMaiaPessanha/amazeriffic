@@ -2,27 +2,22 @@ body {
   background: #f9e933;
   font-family: 'Droid Sans', sans-serif;
 }
-
 header, main, footer {
   min-width: 855px;
 }
-
-header .container, main .container, footer .container {
+header .topnav, main .container, footer .container {
   max-width: 855px;
   margin: auto;
 }
-
 h2, h4, h6 {
   font-family: 'Ubuntu', sans-serif;
 }
-
 header {
   padding: 25px 0 25px 0;
   background: white;
   overflow: auto;
   border-bottom: 1px solid #ddd;
 }
-
 h1 {
   font-family: 'Ubuntu', sans-serif;
   font-style: italic;
@@ -31,24 +26,20 @@ h1 {
   float: left;
   width: 570px;
 }
-
 header nav {
   float: right;
   width: 285px;
 }
-
 a {
   color: #f00;
   text-decoration: none;
   font-weight: bold;
 }
-
 main {
     background: #fff;
     border-radius: 0 5px 5px 5px;;
     padding: 40px;
 }
-
 .tabs a span {
     border-radius: 5px 5px 0 0;
     display: inline-block;
@@ -58,17 +49,14 @@ main {
     background: #ddd;
     padding: 5px;
 }
-
 .tabs a .active {
     background: #eee;
 }
-
 main .content {
     padding: 30px 10px 30px 10px;
     border-radius: 0 5px 5px 5px;
     background: #eee;
 }
-
 h3 {
     font-family: 'Ubuntu', sans-serif;
     border-radius: 5px;
@@ -77,23 +65,19 @@ h3 {
     padding: 5px;
     margin: 20px 0 10px 0;
 }
-
 h3:first-child {
     margin-top: 0;
 }
-
 .content {
   overflow-x: hidden;
   overflow-y: auto;
 }
-
 main .content li {
     border-radius: 5px;
     padding: 3px;
     background: #eff;
     margin: 0 0 10px 0;
 }
-
 main .content button {
   font-weight: bold;
   padding: 0 3px 0 3px;
@@ -103,189 +87,47 @@ main .content button {
   margin-left: 5px;
   font-size: 1.3em;
 }
-
 main .content p {
     color: red;
     margin: 30px 0 0 0;
 }
-
 main .content p:first-child {
     margin-top: 10px;
 }
-
 main .content input {
     font-size: 1.5em;
 }
-
 footer {
     border-top: 1px solid #ddd;
     padding: 40px 0 20px 0;
 }
-
 footer .contact {
   float: left;
   width: 570px;
 }
-
 h5 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.25em;
     margin-bottom: 20px;
 }
-
 footer .contact p:nth-child(2) {
   color: #b33;
   font-style: italic;
 }
-
 footer .sitemap {
     float: right;
     width: 285px;
 }
-
 footer ul {
     width: 230px;
 }
-
 li {
     list-style: none;
 }
-
 a:hover {
   color: red;
   text-decoration: underline;
 }
-
-/*footer .sitemap .left {
-    float: left;
-}
-
-footer .sitemap .right {
-    float: right;
-}*/
-
-/*body {
-  background: #f9e933;
-}
-header, main, footer {
-  min-width: 855px;
-}
-header .container, footer .container {
-  max-width: 855px;
-  margin: auto;
-}
-header, footer {
-    min-width: 855px;
-}
-header {
-  padding: 25px 0 25px 0;
-  background: white;
-  overflow: auto;
-  border-bottom: 1px solid #ddd;
-}
-main {
-  background: #fff;
-  height: 628px;
-  border-radius: 0 5px 5px 5px;
-  padding: 40px;
-}
-h1, h2, h3, h4, h5 {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 100%;
-}
-.title {
-  font-family: 'Ubuntu', sans-serif;
-  font-style: italic;
-  font-size: 3em;
-  color: #b33;
-  float: left;
-  width: 570px;
-}
-p, li, a {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 100%;
-}
-header {
-  background: white;
-  display: block;
-  overflow: auto;
-}
-header nav {
-  float: right;
-  width: 285px;
-}
-a {
-  color: #f00;
-  text-decoration: none;
-  font-weight: bold;
-}
-img {
-  margin-left: 1082px;
-  margin-top: -80px;
-}
-.tabs {
-  border: 6px solid LightGrey;
-}
-.tabs a span {
-  display: inline-block;
-  border-radius: 5px 5px 0 0;
-  width: 100px;
-  margin-right: 10px;
-  text-align: center;
-  background: #ddd;
-  padding: 5px;
-}
-.tabs a span.active {
-  background: #eee;
-}
-.container {
-  background: #D3D3D3;
-  max-width: 704px;
-  max-height: 450px;
-  margin-left: 514px;
-  margin-top: 160px;
-}
-.content{
-  font-family: 'Open Sans', sans-serif;
-  height: 200px;
-  width: 700px;
-  margin-top: 2px;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.content input {
-  margin-left: 10px;
-}
-.content li:nth-child(odd) {
-    background: silver;
-    border-radius: 6px;
-    line-height: 1.6;
-    margin: 5px 5px;
-    text-indent: 10px;
-}
-.content li:nth-child(even) {
-    background: lavender;
-    border-radius: 6px;
-    line-height: 1.6;
-    margin: 5px 5px;
-    text-indent: 10px;
-}
-li, p, h1 {
-  line-height: 20px;
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  text-decoration: underline;
-}
-h5 {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.25em;
-    margin-bottom: 20px;
-}*/
 .contact {
   float: left;
   width: -1px;
